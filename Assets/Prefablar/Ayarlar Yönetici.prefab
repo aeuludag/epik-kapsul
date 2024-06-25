@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5662637168791968135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5662637168791968134}
+  - component: {fileID: 5662637168791968133}
+  - component: {fileID: 5662637168791968132}
+  m_Layer: 0
+  m_Name: "Ayarlar Y\xF6netici"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5662637168791968134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5662637168791968135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1054.3479, y: 1070.8242, z: -153.96387}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5662637168791968133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5662637168791968135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e4d4d80ce24c00b7fb90220969c117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "bildirimY\xF6netici": {fileID: 5662637168791968132}
+  ayarlarButonu: {fileID: 0}
+  sesUI: {fileID: 0}
+  bildirimUI: {fileID: 0}
+  sesAyar: 0
+  bildirimAyar: 0
+  borular: {fileID: 0}
+  kolayBoru: {fileID: 2100000, guid: 20a6b6f3fd9a4a8419cc31e9720deec1, type: 2}
+  zorBoru: {fileID: 2100000, guid: c617314554906944c8dd3da7b6d712cd, type: 2}
+  oyuncuBoru: {fileID: 2100000, guid: b80f80260be5bc04bbe96e9bb5443eb7, type: 2}
+  zorMu: 0
+  oyuncuMu: 0
+--- !u!114 &5662637168791968132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5662637168791968135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e711bad9ed44ec7ba82f7e92c431184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bildirimler:
+  - {fileID: 11400000, guid: 0d6b16b00e3ce264681348200c5f17b9, type: 2}
+  - {fileID: 11400000, guid: 734b52ff5f8122f49b7d79db167dd827, type: 2}
+  - {fileID: 11400000, guid: 06bee225878874847b786ef0b7b30afa, type: 2}
+  - {fileID: 11400000, guid: 5a2c2d06f5023934c943b32eaa760cbe, type: 2}
+  - {fileID: 11400000, guid: a623253137d447348894da44491e91ad, type: 2}
+  - {fileID: 11400000, guid: 9614ed03c5fe9274c8423d77706ee9e5, type: 2}
+  - {fileID: 11400000, guid: c5ef36fd50be3464fb3041619936975f, type: 2}
+  - {fileID: 11400000, guid: 3d379e7a6cc8c414d90d98bc02a87c68, type: 2}
+  - {fileID: 11400000, guid: 212b38601a5c4554196613935d8e1e16, type: 2}
+  - {fileID: 11400000, guid: 7dfe0849d126ab844b5d4953569c70c8, type: 2}
+  - {fileID: 11400000, guid: 2887aa1145067324d89784aa39d73a03, type: 2}
+  - {fileID: 11400000, guid: 7e04683b9141a6f4d8a8ce8d56b7a04b, type: 2}
+  - {fileID: 11400000, guid: d0dc4ce25c6fd2d4fb8bffc12c981c9e, type: 2}
+  - {fileID: 11400000, guid: b4d4b0b94861fa3478ea787fa8a687f2, type: 2}
+  - {fileID: 11400000, guid: 381e61cdc210e3c489d111827193cb12, type: 2}
+  - {fileID: 11400000, guid: f1d2b2863a4f9d4488c86318b349afe6, type: 2}
+  - {fileID: 11400000, guid: c46094bffe5aa364ca664457a8e33b78, type: 2}
+  - {fileID: 11400000, guid: 3b214018a7673eb419ef3c413f92d18b, type: 2}
+  "bildirimA\xE7\u0131kM\u0131": 1
