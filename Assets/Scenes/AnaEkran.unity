@@ -364,7 +364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491d6ea75026412f9e43b85e89b67d81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "s\u0131n\u0131r": 20
+  "s\u0131n\u0131r": 15
 --- !u!95 &344536152
 Animator:
   serializedVersion: 3
@@ -442,7 +442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ayarlanacakButon: {fileID: 392685314}
   playerPref: "zorY\xFCksekSkor"
-  "de\u011FerGereksinim": 30
+  "de\u011FerGereksinim": 25
   "bilgiYaz\u0131s\u0131": "Oyuncu modunu a\xE7mak i\xE7in Zor modda {0} puana ula\u015F!"
 --- !u!114 &392685317
 MonoBehaviour:
@@ -1623,7 +1623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ayarlanacakButon: {fileID: 742115241}
   playerPref: "y\xFCksekSkor"
-  "de\u011FerGereksinim": 50
+  "de\u011FerGereksinim": 30
   "bilgiYaz\u0131s\u0131": "Zor modu a\xE7mak i\xE7in Kolay modda {0} puana ula\u015F!"
 --- !u!1 &777431861
 GameObject:
